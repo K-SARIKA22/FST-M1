@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
-public class JobListingAutomation {
+public class Activity9 {
     private static WebDriver driver;
     private static WebDriverWait wait;
 
@@ -88,3 +88,4 @@ public class JobListingAutomation {
         driver.quit();
     }
 }
+
