@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>FST-RestAssured</groupId>
+  <artifactId>FST-RestAssured1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  	
+  	<properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+<dependencies>
+    <!-- JUnit 5 -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.13.1</version>
+        <scope>test</scope>
+    </dependency>
+    <!-- Testng -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.11.0</version>
+        <scope>test</scope>
+    </dependency>
+    <!-- RESTAssured -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.5.5</version>
+        <scope>test</scope>
+    </dependency>
+    <!-- Hamcrest -->
+    <dependency>
+        <groupId>org.hamcrest</groupId>
+        <artifactId>hamcrest</artifactId>
+        <version>3.0</version>
+        <scope>test</scope>
+    </dependency>
+    <!-- Json Schema Validator -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>json-schema-validator</artifactId>
+        <version>5.5.5</version>
+    </dependency>
+    <!-- Pact Consumer -->
+    <dependency>
+        <groupId>au.com.dius</groupId>
+        <artifactId>pact-jvm-consumer-junit5</artifactId>
+        <version>4.0.10</version>
+    </dependency>
+    <!-- Pact Provider -->
+    <dependency>
+        <groupId>au.com.dius</groupId>
+        <artifactId>pact-jvm-provider-junit5</artifactId>
+        <version>4.0.10</version>
+    </dependency>
+</dependencies>
+</project>
